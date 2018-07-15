@@ -1,0 +1,20 @@
+.connect-offers {
+  width: 100%;
+  margin: 0 auto;
+  .connect-offers__text {
+    width: 90%;
+    margin: 2.5% auto;
+  }
+  .connect-offers__btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 1;
+    z-index: 2;
+    border-radius: 10px;
+    font-size: $base-font;
+    text-align: center;
+    margin: 2.5% 35%;
+  }
+}

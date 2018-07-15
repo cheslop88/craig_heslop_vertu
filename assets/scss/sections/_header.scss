@@ -1,0 +1,109 @@
+.main-navigation__logo-container {
+  width: 20%;
+  border-right: 1px solid $header-border;
+  position: relative;
+  float: left;
+  height: 100px;
+  .main-navigation_logo {
+    padding: 10%;
+    width: 100%;
+  }
+}
+.main-navigation__container {
+  position: relative;
+  float: left;
+  width: 80%;
+  li {
+    display: inline;
+    width: 20%;
+   a {
+     color: $black;
+     padding: 0;
+   }
+  }
+}
+.main-navigation__top__links {
+  a {
+    font-size: 12px;
+    color: $black;
+    padding: 0 1%;
+  }
+}
+.main-navigation__top__page-contrast,
+.main-navigation__top__font-size {
+  span {
+    color: $black;
+  }
+}
+.main-navigation__bottom {
+  border-top: 1px solid $header-border;
+  .main-navigation__subMenu {
+    overflow: hidden;
+    background-color: $white;
+    margin-top: 2.5%;
+  }
+
+  .main-navigation__subMenu a {
+    float: left;
+    color: $black;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    font-size: $base-font;
+    width: 20%;
+    background-color: $white;
+  }
+
+  .main-navigation__subMenu a:hover {
+    border-bottom: 5px solid $brand-blue-hover;
+  }
+
+  .main-navigation__subMenu a.active {
+    border-bottom: 5px solid $brand-blue-hover;
+  }
+}
+.main-navigation__top__telephone-container {
+  font-size: 12px;
+  background-color: $phone-green;
+  display:inline;
+  padding: 10px;
+  .fa-phone {
+    padding: 0 1%;
+  }
+  a {
+    color: $white;
+  }
+}
+.accessibility__option {
+  border: 1px solid $accessibility-border;
+  padding: 4px;
+  text-align: center;
+  color: $blue-text;
+  cursor: pointer;
+  font-weight: 900;
+}
+.main-navigation__top {
+  text-align: right;
+}
+.main-navigation__top__page-contrast,
+.main-navigation__top__font-size {
+  display: inline;
+}
+.accessible__button--light,
+.accessible__button--smaller,
+.accessible__button--normal,
+.accessible__button--larger {
+  background-color: $white;
+  border: 1px solid $accessibility-border;
+  color: $brand-blue;
+}
+.accessible__button--dark {
+  background-color: $black;
+  color: $white;
+}
+header {
+  z-index: 999;
+}
+.main-navigation__top__links {
+  display: inline;
+}

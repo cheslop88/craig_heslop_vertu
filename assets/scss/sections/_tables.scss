@@ -1,0 +1,23 @@
+td, th {
+  border: 1px solid $table-grey;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $table-white;
+  color: $black;
+}
+table {
+  width: 50%;
+}
+.tab__table--top {
+  background-color: $white;
+  color: $black;
+  border: none;
+}
+caption {
+  visibility: hidden;
+}

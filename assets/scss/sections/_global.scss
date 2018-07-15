@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  font-family: $primary-font;
+}
+body {
+  font-size: $base-font;
+}
+* {
+  box-sizing: border-box;
+}
+
+.page-container {
+  max-width: $max-width;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn--blue {
+  background-color: $button-blue;
+  color: white;
+}
+.clear {
+  clear: both;
+}
+.flex-container {
+  display: block;
+  @media only screen and (min-width: $mobile) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+section {
+  padding: 5% 0;
+}

@@ -1,0 +1,25 @@
+.form-container {
+  background-color: $form-background;
+  width: 100%;
+  min-height: 300px;
+}
+.form-container__enquiryForm {
+  width: 35%;
+  background-color: $white;
+  float: right;
+  margin-right: 2%;
+  padding: 1% 5%;
+  input[type="text"] {
+    border-radius: 5px;
+    background-color: $form-input-background;
+    color: $black;
+    width: 40%;
+    border: none;
+    padding: 10px;
+  }
+  .enquiryForm__btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+}

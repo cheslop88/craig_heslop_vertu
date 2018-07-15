@@ -1,0 +1,25 @@
+.subMenu {
+  overflow: hidden;
+  background-color: $sub-menu-background;
+}
+
+.subMenu a {
+  float: left;
+  color: $sub-menu-text;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: $base-font;
+  //to factor in the border bottom and prevent jumping
+  border-bottom: 5px solid transparent;
+}
+
+.subMenu a:hover,
+.subMenu a.active
+{
+  border-bottom: 5px solid $white;
+}
+
+.subMenu--right {
+  float: right;
+}

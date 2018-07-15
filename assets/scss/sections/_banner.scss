@@ -1,0 +1,45 @@
+.banner {
+  position: relative;
+  .banner__image {
+    position: relative;
+    width: 100%;
+  }
+  .banner__container {
+      position: relative;
+      display: block;
+    @media only screen and (min-width: $mobile) {
+      position: absolute;
+      left: 4%;
+      margin: 20px;
+      max-width: 400px;
+      padding: 2%;
+      background-color: $white;
+      opacity: 0.9;
+      vertical-align: middle;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    h2 {
+      font-weight: 900;
+    }
+    .banner__btn {
+        display: block;
+        float: left;
+        width: auto;
+        padding: 1em;
+        border-radius: 10px;
+        font-size: 18px;
+      @media only screen and (min-width: $mobile) {
+        padding: 0.5em;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 1;
+        z-index: 2;
+      }
+    }
+
+  }
+}

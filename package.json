@@ -1,0 +1,33 @@
+{
+    "name": "craig heslop",
+    "version": "1.0.0",
+    "description": "craig heslop",
+    "main": "gulpfile.js",
+    "scripts": {
+        "build": "gulp sass",
+        "start": "gulp sass",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "gulp sass:watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-postcss": "^7.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-util": "^3.0.8",
+        "postcss-reporter": "^5.0.0",
+        "postcss-scss": "^1.0.5",
+        "stylelint": "^9.2.0",
+        "stylelint-config-recommended-scss": "^3.2.0",
+        "stylelint-scss": "^3.0.0",
+        "vinyl-ftp": "^0.6.1"
+    },
+    "dependencies": {
+        "gulp-webserver": "^0.9.1"
+    }
+}
